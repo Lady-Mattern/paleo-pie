@@ -1,0 +1,141 @@
+body {
+    background-color: lightgrey;
+    background-image: url(https://media.istockphoto.com/photos/wood-texture-background-wooden-bark-close-up-grunge-textured-image-picture-id881904156?k=6&m=881904156&s=170667a&w=0&h=Tbpo2F_ULYav4287c7Bderw7k7TFYYYk4JA-rTKczio=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    /* text-align: center; */
+    color: ivory;
+}
+
+/* HEADER CONTENTS */
+nav {
+    background-color: rgba(0,0,0, .8);
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    margin-top: -70px;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: right;
+    padding-top: 30px;
+}
+
+nav > a {
+    padding: 50px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: ivory;
+}
+
+nav > a:hover {
+    background-color: rgba(100, 100, 100, .8);
+}
+
+/* PAGE CONTENTS */
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    margin: 50px;
+}
+
+img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+li {
+    list-style: none;
+    color: ivory;
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    margin: 40px;
+}
+
+.change:hover {
+    box-shadow: 20px, 20px, 20px, red;
+}
+
+.background {
+    background-color: rgba(51, 105, 30, .8);
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+
+#about {
+    background-color: rgba(51, 105, 30, .8);
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.newImg {
+    margin: 0 auto;
+}
+
+/* FORM DESIGN */
+form {
+    text-align: center;
+    border-bottom: 40px;
+}
+
+fieldset {
+    background-color: rgba(51, 105, 30, .8);
+    border-radius: 10px;
+    width: 50%;
+    margin: 40px auto;
+    border: none;
+}
+
+legend {
+    background-color: #d32f2f;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    font-size: 30px;
+}
+
+.input-field {
+    display: block;
+    text-align: left;
+    border: 1px solid red;
+}
+
+.button {
+    background-color: chocolate;
+    color: ivory;
+    border-radius: 10px;
+    border: 1px black;
+    padding: 20px;
+    margin-bottom: 50px;
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    font-size: 20px;
+}
